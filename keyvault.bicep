@@ -1,5 +1,5 @@
-@description(PS - to deploy - New-AzResourceGroupDeployment -ResourceGroupName dev -TemplateFile ./keyvault.bicep -Mode Incremental -Verbose)
-@description(objectid is user object id from Azure AD)
+@description('PS - to deploy - New-AzResourceGroupDeployment -ResourceGroupName dev -TemplateFile ./keyvault.bicep -Mode Incremental -Verbose)
+@description(objectid is user object id from Azure AD')
 param location string =resourceGroup().location
 param tenantid string = 'afasfsdasdasda'
 param objectid string = adsffsdfasdfasdfasdf
